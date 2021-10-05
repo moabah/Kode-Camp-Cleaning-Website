@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .hero-bg{
-    background: url(../Images/hero-bg.jpg);
+    background: url(./Images/hero-bg.jpg);
     background-position: 50% 0%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -37,7 +37,7 @@ h1.title {
     background-repeat: no-repeat;
 }
 .testimg{
-    background-image: url('../Images/billionphotos1079319min.png');
+    background-image: url('./Images/billionphotos1079319min.png');
     object-fit: contain;
 }
 .about{
