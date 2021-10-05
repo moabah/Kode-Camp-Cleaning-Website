@@ -1,0 +1,75 @@
+*, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-bg{
+    background: url(../Images/hero-bg.jpg);
+    background-position: 50% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+h4.repair{
+
+    letter-spacing: 3px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+}
+
+h1.title {
+    font-size: 4rem;
+    line-height: 1.1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+   
+}
+.services{
+    background-color: rgb(247, 238, 238);
+}
+.test{
+     background-color: rgb(202, 187, 187);
+    background-repeat: no-repeat;
+}
+.testimg{
+    background-image: url('../Images/billionphotos1079319min.png');
+    object-fit: contain;
+}
+.about{
+    background-color: rgb(68, 68, 230);
+}
+
+@media (max-width:768px){
+    container, .container-md, .container-sm {
+        max-width: 720px;
+      
+    }
+}
+@media (max-width:660px){
+    .container, .container-md, .container-sm {
+        width: 100%;
+        padding-left: 20px;
+    }
+    .hero-bg{
+        background: url(../Images/hero-bg.jpg);
+       background-position: 100%;
+       background-size: cover;
+    }
+     
+    .test img{
+        width: 150px;
+    }
+    .services{
+        font-size: 1.25rem;
+        padding-right: 70px;
+        padding-left: 20px
+    }
+    
+   
+    
+}
